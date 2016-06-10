@@ -105,7 +105,7 @@ public class MainActivity extends AppCompatActivity
         drawer.closeDrawer(GravityCompat.START);
         return true;
     }
-public void float_to_add_task(View view){
+public void float_to_add_task(View view ){
     Intent intent = new Intent(this,add_task.class);
     startActivity(intent);
 }
