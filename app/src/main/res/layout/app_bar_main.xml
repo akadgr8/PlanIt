@@ -31,6 +31,7 @@
         android:layout_margin="@dimen/fab_margin"
         android:src="@android:drawable/ic_input_add"
         android:adjustViewBounds="false"
-        android:focusableInTouchMode="true" />
+        android:focusableInTouchMode="true"
+        android:onClick="float_to_add_task"/>
 
 </android.support.design.widget.CoordinatorLayout>

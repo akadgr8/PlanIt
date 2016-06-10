@@ -86,9 +86,12 @@ public class MainActivity extends AppCompatActivity
             startActivity(intent);
             // Handle the
             // camera action
-        } /*else if (id == R.id.nav_gallery) {
+        } else if (id == R.id.nav_today){
+            Intent intent=new Intent(this, MainActivity.class);
+            startActivity(intent);
+        }
 
-        } else if (id == R.id.nav_slideshow) {
+        /*} else if (id == R.id.nav_slideshow) {
 
         } else if (id == R.id.nav_manage) {
 
@@ -102,4 +105,8 @@ public class MainActivity extends AppCompatActivity
         drawer.closeDrawer(GravityCompat.START);
         return true;
     }
+public void float_to_add_task(View view){
+    Intent intent = new Intent(this,add_task.class);
+    startActivity(intent);
+}
 }
